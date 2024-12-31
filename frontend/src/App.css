@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Root styles */
+#root {
+  max-width: 1280px;
+  background-color: #0044a9;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Dogica";
+  src: url("/fonts/dogica.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Dogica", sans-serif;
+}
+
+.text-shadow {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  text-shadow:
+    -2px -2px 0px black,
+    2px -2px 0px black,
+    -2px 2px 0px black,
+    2px 2px 0px black,
+    0px -2px 0px black,
+    -2px 0px 0px black,
+    2px 0px 0px black,
+    0px 2px 0px black;
+}
+.text-shadow-sm {
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  text-shadow:
+    -2px -2px 0px black,
+    2px -2px 0px black,
+    -2px 2px 0px black,
+    2px 2px 0px black,
+    0px -2px 0px black,
+    -2px 0px 0px black,
+    2px 0px 0px black,
+    0px 2px 0px black;
+}
